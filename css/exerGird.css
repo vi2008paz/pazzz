@@ -1,0 +1,30 @@
+.container{
+    background-color: brown;
+    height: 100vh;
+    color:antiquewhite;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+       "header header header header"
+       "aside main main main"
+       "aside main main main"
+       "rodolfinho rodolfinho rodolfinho rodolfinho";
+}
+.box1{
+  grid-area: header;
+  background-color: aqua;
+}
+.box2{
+  grid-area: aside;
+  background-color: burlywood;
+}
+.box3{
+  grid-area: main;
+  background-color: blue;
+}
+.box4{
+  grid-area: rodolfinho;
+  background-color: cadetblue;
+}

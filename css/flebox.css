@@ -1,0 +1,34 @@
+.box{
+    margin: 5px;
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+}
+.container{
+    /*overflow: auto;*/
+    background-color: cadetblue;
+   border: 1px solid;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    /*direction ltr*/
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: ;
+
+}
+.box1 {
+    order:3;
+    background-color: chartreuse;
+}
+.box2 {
+    order: 2;
+    background-color: chocolate;
+}
+.box3 {
+    order: 1;
+    background-color: blueviolet;
+}

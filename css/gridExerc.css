@@ -1,0 +1,17 @@
+.container{
+    background-color: brown;
+    height: 100vh;
+    color:antiquewhite;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+       "header header header header"
+       "aside main main main"
+       "aside main main main"
+       "rodolfinho rodolfinho rodolfinho rodolfinho";  
+}
+
+
+    
